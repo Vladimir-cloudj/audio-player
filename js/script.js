@@ -27,7 +27,7 @@ let songIndex = 0
 function loadSong(song, artist) {
 	titleSong.innerHTML = song;
 	artistSong.innerHTML = artist;
-	audio.src = `audio-player/song/${song}.mp3`
+	audio.src = `song/${song}.mp3`
 	cover.src = `img/cover${songIndex + 1}.png`
 }
 loadSong(songs[songIndex], artists[songIndex])
