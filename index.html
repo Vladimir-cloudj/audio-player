@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Audio-player</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="player">
+			<div class="title">Now Playing</div>
+			<div class="song-artist">Alan Walker</div>
+			<div class="cover">
+				<img src="./img/cover1.png" alt="cover__img" class="cover__img">
+			</div>
+			<div class="song-name">faded</div>
+			
+			<audio class="audio" src="./songs/"></audio>
+			<div class="time-container">
+				<div class="current-time">00:00</div>
+				<div class="progress__container">
+					<div class="progress"></div>
+				</div>
+				<div class="total-time">00:00</div>
+			</div>
+			
+			<div class="volume__main">
+				<div class="img__volume-minus">
+					<img src="./img/volume-minus.png" alt="img_volume">
+				</div>
+				<div class="volume__container">					
+					<div class="volume"></div>
+				</div>
+				<div class="img__volume-plus">
+					<img src="./img/volume-plus.png" alt="img_volume">
+				</div>
+			</div>
+			
+			<div class="buttons">
+				<div class="btn prev">
+					<img src="./img/prev.png" alt="prev_img" width="48px">
+				</div>
+				<div class="btn play">
+					<img class="img__src" src="./img/play.png" alt="prev_img" width="48px">
+				</div>
+				<div class="btn next">
+					<img src="./img/next.png" alt="prev_img" width="48px">
+				</div>
+			</div>
+		
+		</div>
+		
+	</div>
+
+	<footer class="footer">
+    <div class="footer__leftside">
+      <p class="footer__copyright">©</p>
+      <p class="footer__year">2022</p>
+      <a href="https://github.com/Vladimir-cloudj" class="footer__github-link">github</a>
+    </div>
+    <div class="footer__middleside">
+      <a href="https://rs.school/js-stage0/" class="footer__rsschool-link">Rolling Scopes School</a>
+    </div>
+  </footer>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
