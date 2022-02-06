@@ -35,6 +35,7 @@ loadSong(songs[songIndex], artists[songIndex])
 // play
 function playSong() {
 	player.classList.add('play')
+	player.crossOrigin = "anonymous";
 	audio.play()
 	cover.classList.add('active')
 	imgSrc.src = `img/pause.png`
